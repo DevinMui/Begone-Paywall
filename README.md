@@ -4,13 +4,19 @@ Begone Paywall is exactly what the name suggests: a paywall bypasser. It bypasse
 
 ### How it works
 
-All paywalls operate using `localStorage`. Every time you read an article, the website stores the article in their `localStorage`. For the majority of the time, you could simply use incognito mode to access the article. However, I noticed that some sites started adding in an incognito blocker which is super annoying and requires a user to manually clear `localStorage`. This extension automates that process.
+Begone Paywall is exactly what the name suggests: a paywall bypasser. I thought a lot of people would have made an extension like this, but based on reviews, none of them appeared to be fully functional. Anyways, here's a really simple paywall bypasser.
 
-A background script listens to tab changes and executes a simple content script when the hostname is equivalent to one of the hostnames listed.
+All paywalls operate using `localStorage` and cookies. Every time you read an article, the website stores that information in the `localStorage`. For the majority of the time, you could simply use incognito mode to access the article. However, I noticed that some sites started adding in an incognito blocker which is super annoying and requires a user to manually clear `localStorage`. This extension automates that process.
 
 ### What's next
 
 Currently, Begone Paywall is using a `const` array to store a list of websites with paywalls. In the future, I plan to add user settings to expand the default list.
+
+Please submit issues to GitHub: https://github.com/DevinMui/Begone-Paywall
+
+Or email me at dmui@usc.edu for issues/list updates.
+
+Thank you!
 
 ### License
 
