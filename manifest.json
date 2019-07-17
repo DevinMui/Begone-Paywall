@@ -1,16 +1,22 @@
 {
-	"name": "PWB",
-	"version": "1.0",
-	"description": "Paywall bypass",
+	"name": "Begone Paywall",
+	"version": "0.1.0",
+	"description": "A simple paywall bypasser for news websites because I'm a broke college student.",
 	"manifest_version": 2,
 	"background": {
 		"scripts": [ "background.js" ],
 		"persistent": false
 	},
 	"permissions": [
+		"cookies",
 		"tabs",
 		"activeTab",
 		"http://*/*",
 		"https://*/*"
-	]
+	],
+	"icons": { 
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	}
 }

@@ -1,16 +1,16 @@
-# PWB
+# Begone Paywall
 
-Paywall Bypasser is exactly what the name implies: a paywall bypasser. A thought a lot of people would have made an extension like this but based on reviews, none of them appeared to be fully functional. Anyways, here's a really simple paywall bypasser.
+Begone Paywall is exactly what the name suggests: a paywall bypasser. It bypasses the paywalls of certain websites.
 
 ### How it works
 
-All paywalls operate using `localstorage`. Everytime you read an article, the website stores the article in their `localstorage`. For the majority of the time, you could simply use incognito mode to access the article. However, I noticed that some sites started adding in an incognito blocker which is super annoying and requires a user to manually clear `localstorage`. This extension automates that process.
+All paywalls operate using `localStorage`. Every time you read an article, the website stores the article in their `localStorage`. For the majority of the time, you could simply use incognito mode to access the article. However, I noticed that some sites started adding in an incognito blocker which is super annoying and requires a user to manually clear `localStorage`. This extension automates that process.
 
 A background script listens to tab changes and executes a simple content script when the hostname is equivalent to one of the hostnames listed.
 
 ### What's next
 
-Currently, PWB is using a `const` array to store a list of websites with paywalls. In the future, I plan to add user settings to expand the default list.
+Currently, Begone Paywall is using a `const` array to store a list of websites with paywalls. In the future, I plan to add user settings to expand the default list.
 
 ### License
 
